@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* margin: 1px 1px 1px 1px; */
+     background-color: #F1F8FF;
+}
+.main{
+    display:flex;
+    background-color:#a4dad8;
+    color: #0f4c66;
+   display: flex;
+   /* position: sticky;
+   top:0; */
+   justify-content: space-between;
+   align-items: center;
+  padding: 10px 50px;
+  
+}
+.logo{
+    display: flex;
+    align-items: start;
+    font-size: 40px;
+    padding-left: 5px;
+    font-family:cursive;
+}
+.navbar{
+    column-gap:10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.navbar a{
+    padding:10px 20px;
+    text-decoration: none;
+    color: #0f4c66;
+}
+.navbar a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+    color:rgb(6, 31, 60) ;
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background-color: #F1F8FF; 
+}
+
+.text {
+    flex: 1;
+    text-align: start; 
+    color: #0f4c66;
+    font-family: cursive;
+    padding-left: 30px;
+}
+.text button{
+    display: flex;
+    color: #F1F8FF; 
+    background-color: #0f4c66;
+    padding: 10px 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f4c66;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #305d90;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #F1F8FF;
+    padding: 40px 5%;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    color: #0f4c66;
+    font-family: cursive;
+    padding-right: 20px;
+}
+
+.img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.img img {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 40%;
+    background-color: #a4dad8;
+}
+table{
+    /* border: 3px solid #0f4c66; */
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-content: center;
+    padding: 10px ;
+    height: 150px;
+    width: 470px;
+    margin:10px;
+    color: #063346;
+    border-radius: 5px;
+    font-weight: 900;
+}
+table:hover{
+   transform: scale(1.1);
+    background-color: #d9e4ef;
+}
+#skills {
+
+    text-align: center;
+    padding: 50px;
+}
+
+#images{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 50px;
+   padding: 20px;
+}
+
+.skill {
+    width: 300px;
+    height:300px;
+    box-shadow: 0 4px 5px rgba(79, 68, 68, 0.53);
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    color: #063346;
+}
+.skill:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+    transition-duration: 0.8s;
+}
+.skill h2{
+    padding: 20px;
+    font-family: cursive;
+}
+.skill_img{
+    width: 150px;
+    height: 150px;
+    margin-left:60px
+}
+.skill_img img{
+    box-shadow: 0 4px 5px rgba(79, 68, 68, 0.53);
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content:space-evenly;
+   margin: 10px;
+}
+/* .skill_img img:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+} */
+#projects {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project-card{
+    width: 300px;
+    background-color:#F1F8FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px 20px 5px  20px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+    color: #0f4c66;
+}
+
+.project-card p {
+    color: #333;
+    font-size: 14px;
+}
+#reach-me {
+    background-color: #F1F8FF;
+    padding: 0px 50px 40px 50px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.contact-details {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-item {
+    font-size: 18px;
+    color: #0f4c66;
+}
+
+.contact-item a {
+    color: #3F72AF;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+
+
